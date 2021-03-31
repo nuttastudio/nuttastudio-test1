@@ -207,17 +207,58 @@ nav {
 .nav-item {
 	border-top: 1px solid #25294C;
 	padding: 0.25em;
+
+
 }
 
+
 .nav-item img {
-	width: 3em;
+	width: 3.5em;
 	display: block;
 	margin: 0;
+	
 }
+
 
 .nav-item a {
 	display: block;
+
 }
+
+/* Cursors */
+
+.aboutme {
+  cursor: url('img/aboutme-cursor.svg'), auto;
+}
+
+.graphicdesign {
+	cursor: url('img/graphicdesign-cursor.svg'), auto;
+}
+
+.illustration {
+	cursor: url('img/illustration-cursor.svg'), auto;
+}
+
+.finearts {
+	cursor: url('img/finearts-cursor.svg'), auto;
+}
+
+.typography {
+	cursor: url('img/typography-cursor.svg'), auto;
+}
+
+.projects {
+	cursor: url('img/projects-cursor.svg'), auto;
+}
+
+.email {
+	cursor: url('img/email-cursor.svg'), auto;
+}
+
+
+
+
+
 
 /* Work nav */
 
@@ -414,6 +455,16 @@ header {
 }
 
 
+@media (min-width: 600px) {
+	.about-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		padding: 0 0.5em 3em 0.5em;
+	}
+}
+
+
 
 /* Folders */
 
@@ -424,6 +475,7 @@ header {
 	padding: 0.5em;
 	justify-content: end;
 	padding-top: 5vh;
+	padding-right: 5vh;
 }
 
 .folders a {
