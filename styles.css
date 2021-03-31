@@ -133,6 +133,7 @@ a:hover {
 
 .home-grid-text-top {
 	top: 2px;
+
 }
 
 .home-grid-text-bottom {
@@ -518,7 +519,7 @@ header {
 	.home-grid-text {
 		left: calc(6.667vw * 4 + 2px);
 		width: calc(6.667vw * 7 - 4px);
-		font-size: 1.25em;
+		font-size: 1em;
 	}
 
 	.home-grid-text-area {
@@ -552,7 +553,7 @@ header {
 	.home-grid-text {
 		left: calc(5vw * 6 + 2px);
 		width: calc(5vw * 8 - 4px);
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.home-grid-text-area {
